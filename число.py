@@ -5,7 +5,8 @@ def main():
         result = int(input(f"Угадай результат этих чисел ({num1} * {num2}) "))
         if result == num2 * num1:
             print("Молодец")
-        elif result - 5 <= num2 * num1 <= result + 5:
+        elif result - 5000 <= num2 * num1 <= result + 5000
+:
             print("Было близко")
         else:
             print("Прости, Ты слишком тупой")
